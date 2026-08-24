@@ -1,0 +1,192 @@
+{
+  "classifier": "LinearSVC",
+  "representation": "word+char+direction (ablation winner; structural omitted)",
+  "calibration_source": "merchant-disjoint g_cal",
+  "rows": {
+    "0.5": {
+      "threshold": 0.5,
+      "coverage": 0.9952,
+      "abstention_rate": 0.0048,
+      "accuracy": 0.9575,
+      "macro_f1": 0.961,
+      "accepted_count": 15240
+    },
+    "0.6": {
+      "threshold": 0.6,
+      "coverage": 0.9938,
+      "abstention_rate": 0.0062,
+      "accuracy": 0.9583,
+      "macro_f1": 0.9619,
+      "accepted_count": 15219
+    },
+    "0.7": {
+      "threshold": 0.7,
+      "coverage": 0.991,
+      "abstention_rate": 0.009,
+      "accuracy": 0.9589,
+      "macro_f1": 0.9624,
+      "accepted_count": 15176
+    },
+    "0.8": {
+      "threshold": 0.8,
+      "coverage": 0.9871,
+      "abstention_rate": 0.0129,
+      "accuracy": 0.9603,
+      "macro_f1": 0.9635,
+      "accepted_count": 15117
+    },
+    "0.9": {
+      "threshold": 0.9,
+      "coverage": 0.9596,
+      "abstention_rate": 0.0404,
+      "accuracy": 0.9687,
+      "macro_f1": 0.9689,
+      "accepted_count": 14696
+    },
+    "0.95": {
+      "threshold": 0.95,
+      "coverage": 0.9307,
+      "abstention_rate": 0.0693,
+      "accuracy": 0.9737,
+      "macro_f1": 0.9724,
+      "accepted_count": 14253
+    },
+    "0.99": {
+      "threshold": 0.99,
+      "coverage": 0.7796,
+      "abstention_rate": 0.2204,
+      "accuracy": 0.9964,
+      "macro_f1": 0.9964,
+      "accepted_count": 11939
+    }
+  },
+  "threshold_selection": {
+    "selected_threshold": 0.99,
+    "selection_objective": "max Macro-F1 subject to coverage >= 0.9 (calibration slice)",
+    "coverage_target": 0.9,
+    "calibration_slice_table": {
+      "0.5": {
+        "threshold": 0.5,
+        "coverage": 1.0,
+        "abstention_rate": 0.0,
+        "accuracy": 0.9989,
+        "macro_f1": 0.9989,
+        "accepted_count": 10538
+      },
+      "0.6": {
+        "threshold": 0.6,
+        "coverage": 0.9988,
+        "abstention_rate": 0.0012,
+        "accuracy": 0.9991,
+        "macro_f1": 0.9992,
+        "accepted_count": 10525
+      },
+      "0.7": {
+        "threshold": 0.7,
+        "coverage": 0.9985,
+        "abstention_rate": 0.0015,
+        "accuracy": 0.9992,
+        "macro_f1": 0.9992,
+        "accepted_count": 10522
+      },
+      "0.8": {
+        "threshold": 0.8,
+        "coverage": 0.998,
+        "abstention_rate": 0.002,
+        "accuracy": 0.9994,
+        "macro_f1": 0.9994,
+        "accepted_count": 10517
+      },
+      "0.9": {
+        "threshold": 0.9,
+        "coverage": 0.9973,
+        "abstention_rate": 0.0027,
+        "accuracy": 0.9995,
+        "macro_f1": 0.9995,
+        "accepted_count": 10510
+      },
+      "0.95": {
+        "threshold": 0.95,
+        "coverage": 0.9953,
+        "abstention_rate": 0.0047,
+        "accuracy": 0.9996,
+        "macro_f1": 0.9996,
+        "accepted_count": 10488
+      },
+      "0.99": {
+        "threshold": 0.99,
+        "coverage": 0.9764,
+        "abstention_rate": 0.0236,
+        "accuracy": 0.9999,
+        "macro_f1": 0.9999,
+        "accepted_count": 10289
+      }
+    },
+    "frozen_threshold_test": {
+      "threshold": 0.99,
+      "coverage": 0.7796,
+      "abstention_rate": 0.2204,
+      "accuracy": 0.9964,
+      "macro_f1": 0.9964,
+      "accepted_count": 11939
+    },
+    "test_full_table": {
+      "0.5": {
+        "threshold": 0.5,
+        "coverage": 0.9952,
+        "abstention_rate": 0.0048,
+        "accuracy": 0.9575,
+        "macro_f1": 0.961,
+        "accepted_count": 15240
+      },
+      "0.6": {
+        "threshold": 0.6,
+        "coverage": 0.9938,
+        "abstention_rate": 0.0062,
+        "accuracy": 0.9583,
+        "macro_f1": 0.9619,
+        "accepted_count": 15219
+      },
+      "0.7": {
+        "threshold": 0.7,
+        "coverage": 0.991,
+        "abstention_rate": 0.009,
+        "accuracy": 0.9589,
+        "macro_f1": 0.9624,
+        "accepted_count": 15176
+      },
+      "0.8": {
+        "threshold": 0.8,
+        "coverage": 0.9871,
+        "abstention_rate": 0.0129,
+        "accuracy": 0.9603,
+        "macro_f1": 0.9635,
+        "accepted_count": 15117
+      },
+      "0.9": {
+        "threshold": 0.9,
+        "coverage": 0.9596,
+        "abstention_rate": 0.0404,
+        "accuracy": 0.9687,
+        "macro_f1": 0.9689,
+        "accepted_count": 14696
+      },
+      "0.95": {
+        "threshold": 0.95,
+        "coverage": 0.9307,
+        "abstention_rate": 0.0693,
+        "accuracy": 0.9737,
+        "macro_f1": 0.9724,
+        "accepted_count": 14253
+      },
+      "0.99": {
+        "threshold": 0.99,
+        "coverage": 0.7796,
+        "abstention_rate": 0.2204,
+        "accuracy": 0.9964,
+        "macro_f1": 0.9964,
+        "accepted_count": 11939
+      }
+    }
+  }
+}

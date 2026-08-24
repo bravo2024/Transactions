@@ -1,0 +1,220 @@
+{
+  "n_misclassified": 720,
+  "misclassification_rate": 0.047,
+  "worst_categories": {
+    "Transfer": {
+      "precision": 0.6205704407951599,
+      "recall": 0.9276485788113695,
+      "f1": 0.743656136716727,
+      "support": 774.0
+    },
+    "Fees": {
+      "precision": 1.0,
+      "recall": 0.6654191616766467,
+      "f1": 0.7991011235955057,
+      "support": 1336.0
+    },
+    "Groceries": {
+      "precision": 0.9978540772532188,
+      "recall": 0.8462238398544131,
+      "f1": 0.9158050221565731,
+      "support": 1099.0
+    },
+    "Restaurants": {
+      "precision": 0.9013933547695605,
+      "recall": 0.998812351543943,
+      "f1": 0.9476056338028169,
+      "support": 842.0
+    },
+    "Insurance": {
+      "precision": 0.9014598540145985,
+      "recall": 1.0,
+      "f1": 0.9481765834932822,
+      "support": 741.0
+    }
+  },
+  "best_categories": {
+    "Education": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 1168.0
+    },
+    "Entertainment": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 1085.0
+    },
+    "Mortgage": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 851.0
+    },
+    "Rent": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 716.0
+    },
+    "Transportation": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 635.0
+    }
+  },
+  "examples": [
+    {
+      "true": "Subscription",
+      "predicted": "Shopping",
+      "description": "[debit] EXPRESSVPN",
+      "confidence": 0.9919
+    },
+    {
+      "true": "Fees",
+      "predicted": "Transfer",
+      "description": "[debit] atm surcharge",
+      "confidence": 0.9893
+    },
+    {
+      "true": "Fees",
+      "predicted": "Transfer",
+      "description": "[debit] DAILY CASH ADJUSTMENT",
+      "confidence": 0.8568
+    },
+    {
+      "true": "Fees",
+      "predicted": "Transfer",
+      "description": "[debit] ATM SURCHARGE",
+      "confidence": 0.9893
+    },
+    {
+      "true": "Fees",
+      "predicted": "Transfer",
+      "description": "[debit] ATM SERVICE CHARGE - 09/11",
+      "confidence": 0.9609
+    },
+    {
+      "true": "Groceries",
+      "predicted": "Insurance",
+      "description": "[debit] SQ *FARM STAND",
+      "confidence": 0.4851
+    },
+    {
+      "true": "Fees",
+      "predicted": "Transfer",
+      "description": "[debit] ATM SERVICE CHARGE",
+      "confidence": 0.9862
+    },
+    {
+      "true": "Transfer",
+      "predicted": "Shopping",
+      "description": "[credit] PAYPAL INST XFER AMEX AUTOPAY WEB ID: PAYPALSI86",
+      "confidence": 0.3343
+    },
+    {
+      "true": "Fees",
+      "predicted": "Transfer",
+      "description": "[debit] ATM SURCHARGE",
+      "confidence": 0.9893
+    },
+    {
+      "true": "Fees",
+      "predicted": "Transfer",
+      "description": "[debit] ATM SERVICE CHARGE - 48/72",
+      "confidence": 0.9458
+    },
+    {
+      "true": "Fees",
+      "predicted": "Transfer",
+      "description": "[debit] DAILY CASH ADJUSTMENT",
+      "confidence": 0.8568
+    },
+    {
+      "true": "Fees",
+      "predicted": "Transfer",
+      "description": "[debit] ATM SURCHARGE",
+      "confidence": 0.9893
+    },
+    {
+      "true": "Fees",
+      "predicted": "Transfer",
+      "description": "[debit] ATM SURCHARGE",
+      "confidence": 0.9893
+    },
+    {
+      "true": "Fees",
+      "predicted": "Transfer",
+      "description": "[debit] ATM SERVICE CHARGE - 82/94",
+      "confidence": 0.947
+    },
+    {
+      "true": "Fees",
+      "predicted": "Transfer",
+      "description": "[debit] ATM SERVICE CHARGE - 11/74",
+      "confidence": 0.9625
+    },
+    {
+      "true": "Transfer",
+      "predicted": "Shopping",
+      "description": "[credit] PAYPAL INST XFER AMEX AUTOPAY WEB ID: PAYPALSI99",
+      "confidence": 0.4176
+    },
+    {
+      "true": "Fees",
+      "predicted": "Transfer",
+      "description": "[credit] atm service charge",
+      "confidence": 0.9748
+    },
+    {
+      "true": "Groceries",
+      "predicted": "Insurance",
+      "description": "[debit] SQ *Farmers Market",
+      "confidence": 0.9196
+    },
+    {
+      "true": "Groceries",
+      "predicted": "Restaurants",
+      "description": "[debit] SQ *FRUIT STAND",
+      "confidence": 0.979
+    },
+    {
+      "true": "Fees",
+      "predicted": "Transfer",
+      "description": "[debit] Atm Service Charge",
+      "confidence": 0.9862
+    },
+    {
+      "true": "Groceries",
+      "predicted": "Insurance",
+      "description": "[debit] SQ *Farm Stand",
+      "confidence": 0.4851
+    },
+    {
+      "true": "Fees",
+      "predicted": "Transfer",
+      "description": "[debit] DAILY CASH ADJUSTMENT - 38/41",
+      "confidence": 0.791
+    },
+    {
+      "true": "Fees",
+      "predicted": "Transfer",
+      "description": "[credit] daily cash adjustment - 28/86",
+      "confidence": 0.5477
+    },
+    {
+      "true": "Fees",
+      "predicted": "Transfer",
+      "description": "[debit] DAILY CASH ADJUSTMENT",
+      "confidence": 0.8568
+    },
+    {
+      "true": "Fees",
+      "predicted": "Transfer",
+      "description": "[debit] ATM SERVICE CHARGE",
+      "confidence": 0.9862
+    }
+  ]
+}

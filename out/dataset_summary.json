@@ -1,0 +1,39 @@
+{
+  "rows": 68000,
+  "categories": 17,
+  "merchants": 12918,
+  "cities": 35,
+  "formats": {
+    "simple": 45386,
+    "ach": 8272,
+    "paypal": 5732,
+    "address": 4670,
+    "capital_one": 2791,
+    "pos": 1149
+  },
+  "direction": {
+    "debit": 60007,
+    "credit": 7993
+  },
+  "duplicate_descriptions": 22303,
+  "duplicate_full_rows": 22298,
+  "class_distribution": {
+    "Insurance": 4000,
+    "Mortgage": 4000,
+    "Entertainment": 4000,
+    "Utilities": 4000,
+    "Groceries": 4000,
+    "Personal Care": 4000,
+    "Shopping": 4000,
+    "Subscription": 4000,
+    "Healthcare": 4000,
+    "Rent": 4000,
+    "Fees": 4000,
+    "Income": 4000,
+    "Transportation": 4000,
+    "Education": 4000,
+    "Restaurants": 4000,
+    "Transfer": 4000,
+    "Travel": 4000
+  }
+}

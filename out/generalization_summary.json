@@ -1,0 +1,22 @@
+[
+  {
+    "Evaluation regime": "Random (in-distribution)",
+    "Purpose": "in-distribution benchmark (merchant overlap possible)",
+    "Best Macro-F1": 0.9987
+  },
+  {
+    "Evaluation regime": "Merchant-disjoint (unseen merchant)",
+    "Purpose": "unseen-merchant generalization",
+    "Best Macro-F1": 0.9588
+  },
+  {
+    "Evaluation regime": "Format-disjoint (unseen format, best)",
+    "Purpose": "unseen-format generalization",
+    "Best Macro-F1": 0.6983
+  },
+  {
+    "Evaluation regime": "Merchant + description disjoint (strict)",
+    "Purpose": "strict lexical generalization",
+    "Best Macro-F1": 0.9588
+  }
+]

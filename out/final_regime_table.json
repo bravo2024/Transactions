@@ -1,0 +1,23 @@
+[
+  {
+    "Evaluation Regime": "Random reference (in-distribution)",
+    "Model": "Linear SVM",
+    "Macro-F1": 0.9987,
+    "Accuracy": 0.9988,
+    "Weighted-F1": 0.9987
+  },
+  {
+    "Evaluation Regime": "Merchant-disjoint (primary)",
+    "Model": "Linear SVM",
+    "Macro-F1": 0.9588,
+    "Accuracy": 0.9547,
+    "Weighted-F1": 0.955
+  },
+  {
+    "Evaluation Regime": "Strict (merchant + description disjoint)",
+    "Model": "Linear SVM",
+    "Macro-F1": 0.9563,
+    "Accuracy": 0.953,
+    "Weighted-F1": 0.9531
+  }
+]

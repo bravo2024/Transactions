@@ -1,0 +1,32 @@
+{
+  "merchant_disjoint": {
+    "macro_f1": 0.9588,
+    "accuracy": 0.9547,
+    "weighted_f1": 0.955,
+    "canonical_merchant_overlap": 0
+  },
+  "strict": {
+    "merchant_overlap": 0,
+    "exact_desc_overlap": 0,
+    "train_size_strict": 52686,
+    "test_size_strict": 15314,
+    "accuracy": 0.953,
+    "macro_f1": 0.9563,
+    "weighted_f1": 0.9531,
+    "log_loss": 0.2549,
+    "brier": 0.0844,
+    "ece": 0.0307,
+    "selective": {
+      "frozen_threshold": 0.99,
+      "coverage": 0.7796,
+      "abstention_rate": 0.2204,
+      "accuracy_accepted": 0.9964,
+      "macro_f1_accepted": 0.9964
+    }
+  },
+  "random_reference": {
+    "macro_f1": 0.9987,
+    "accuracy": 0.9988,
+    "weighted_f1": 0.9987
+  }
+}

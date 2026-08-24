@@ -1,0 +1,18 @@
+{
+  "full": {
+    "accuracy": 0.9429,
+    "macro_f1": 0.944
+  },
+  "merchant_masked": {
+    "accuracy": 0.3157,
+    "macro_f1": 0.3556
+  },
+  "ids_masked": {
+    "accuracy": 0.9071,
+    "macro_f1": 0.9097
+  },
+  "merchant_ids_masked": {
+    "accuracy": 0.2797,
+    "macro_f1": 0.3027
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "ach": {
+    "skipped": false,
+    "holdout_format": "ach",
+    "merchant_disjoint": true,
+    "excluded_by_merchant_overlap": 1444,
+    "train_size": 59728,
+    "test_size": 6828,
+    "train_categories": 17,
+    "test_categories": 8,
+    "test_categories_absent_from_train": [],
+    "category_support_overlap": 1.0,
+    "accuracy": 0.9402,
+    "macro_f1": 0.4411,
+    "weighted_f1": 0.949
+  },
+  "address": {
+    "skipped": true,
+    "reason": "holdout address only 0 rows after merchant-disjoint filter",
+    "excluded_by_merchant_overlap": 4670
+  },
+  "capital_one": {
+    "skipped": false,
+    "holdout_format": "capital_one",
+    "merchant_disjoint": true,
+    "excluded_by_merchant_overlap": 2038,
+    "train_size": 65209,
+    "test_size": 753,
+    "train_categories": 17,
+    "test_categories": 3,
+    "test_categories_absent_from_train": [],
+    "category_support_overlap": 1.0,
+    "accuracy": 0.9283,
+    "macro_f1": 0.1633,
+    "weighted_f1": 0.9531
+  },
+  "paypal": {
+    "skipped": false,
+    "holdout_format": "paypal",
+    "merchant_disjoint": true,
+    "excluded_by_merchant_overlap": 3119,
+    "train_size": 62268,
+    "test_size": 2613,
+    "train_categories": 17,
+    "test_categories": 12,
+    "test_categories_absent_from_train": [],
+    "category_support_overlap": 1.0,
+    "accuracy": 0.9862,
+    "macro_f1": 0.6983,
+    "weighted_f1": 0.9899
+  },
+  "pos": {
+    "skipped": false,
+    "holdout_format": "pos",
+    "merchant_disjoint": true,
+    "excluded_by_merchant_overlap": 101,
+    "train_size": 66851,
+    "test_size": 1048,
+    "train_categories": 17,
+    "test_categories": 2,
+    "test_categories_absent_from_train": [],
+    "category_support_overlap": 1.0,
+    "accuracy": 0.6212,
+    "macro_f1": 0.0772,
+    "weighted_f1": 0.7171
+  },
+  "simple": {
+    "skipped": false,
+    "holdout_format": "simple",
+    "merchant_disjoint": true,
+    "excluded_by_merchant_overlap": 15588,
+    "train_size": 22614,
+    "test_size": 29798,
+    "train_categories": 16,
+    "test_categories": 17,
+    "test_categories_absent_from_train": [
+      "Fees"
+    ],
+    "category_support_overlap": 0.9412,
+    "accuracy": 0.578,
+    "macro_f1": 0.6328,
+    "weighted_f1": 0.6538
+  }
+}

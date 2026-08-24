@@ -1,0 +1,29 @@
+{
+  "rows": [
+    {
+      "train_size": 5000,
+      "accuracy": 0.9144,
+      "macro_f1": 0.9143
+    },
+    {
+      "train_size": 10000,
+      "accuracy": 0.9599,
+      "macro_f1": 0.9599
+    },
+    {
+      "train_size": 20000,
+      "accuracy": 0.9831,
+      "macro_f1": 0.9831
+    },
+    {
+      "train_size": 40000,
+      "accuracy": 0.9924,
+      "macro_f1": 0.9924
+    },
+    {
+      "train_size": 54400,
+      "accuracy": 0.9965,
+      "macro_f1": 0.9965
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "flag_rate": {
+    "isolation_forest_full": 0.003107688150249966,
+    "sgd_ocsvm_rff_full": 0.001553844075124983,
+    "one_class_svm_sub_ref": 6.755843804891231e-05
+  },
+  "agreement": [
+    {
+      "Estimator pair": "IsoForest vs SGD-OCSVM",
+      "Agreement rate": 0.9958789352790164,
+      "Jaccard overlap": 0.06153846153846154
+    },
+    {
+      "Estimator pair": "IsoForest vs Confidence-OOD",
+      "Agreement rate": 0.9466963923794082,
+      "Jaccard overlap": 0.0
+    },
+    {
+      "Estimator pair": "SGD-OCSVM vs Confidence-OOD",
+      "Agreement rate": 0.9482502364545332,
+      "Jaccard overlap": 0.0
+    },
+    {
+      "Estimator pair": "OCSVM-ref vs Confidence-OOD",
+      "Agreement rate": 0.9497365220916092,
+      "Jaccard overlap": 0.0
+    }
+  ],
+  "recommendation": "IsolationForest"
+}

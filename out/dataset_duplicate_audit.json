@@ -1,0 +1,11 @@
+{
+  "n_unique_descriptions": 45697,
+  "n_duplicate_descriptions": 5177,
+  "n_duplicate_rows": 22303,
+  "n_duplicate_full_rows": 22298,
+  "max_occurrences_of_one_description": 445,
+  "dup_descs_spanning_multiple_categories": 5,
+  "dup_descs_spanning_multiple_merchants": 0,
+  "random_split_desc_overlap": 2664,
+  "random_split_test_desc_share_seen_in_train": 0.2453
+}

@@ -1,0 +1,98 @@
+{
+  "logreg": {
+    "model_family": "logreg",
+    "representation": "hybrid",
+    "calibration_method": "sigmoid (Platt) via CalibratedClassifierCV(FrozenEstimator(base))",
+    "brier_definition": "multi-class Brier (sum of one-hot squared errors, mean over samples)",
+    "n_train": 54400,
+    "n_calibration": 10880,
+    "n_test": 13600,
+    "accuracy": 0.9964,
+    "log_loss": 0.0208,
+    "brier_score": 0.0083,
+    "ece": 0.0103,
+    "raw_log_loss": 0.0899,
+    "raw_brier": 0.0218,
+    "raw_ece": 0.0708,
+    "calibration_log_loss": 0.0136,
+    "calibration_brier": 0.0048,
+    "calibration_ece": 0.0106,
+    "calibration_curve": {
+      "bin_center": [
+        0.15000000000000002,
+        0.25,
+        0.35000000000000003,
+        0.45,
+        0.55,
+        0.6500000000000001,
+        0.75,
+        0.8500000000000001,
+        0.95
+      ],
+      "accuracy": [
+        0.0,
+        0.5,
+        0.5,
+        0.5,
+        0.7777777777777778,
+        0.9186046511627907,
+        0.918918918918919,
+        0.9529411764705882,
+        0.9996964638033086
+      ],
+      "confidence": [
+        0.18285351140084002,
+        0.2462645132847714,
+        0.3435604492974499,
+        0.4580126407316185,
+        0.5519741664344189,
+        0.6568461828890664,
+        0.7558949868831256,
+        0.8595260193583707,
+        0.9944192398264143
+      ]
+    }
+  },
+  "linearsvc": {
+    "model_family": "linearsvc",
+    "representation": "hybrid",
+    "calibration_method": "sigmoid (Platt) via CalibratedClassifierCV(FrozenEstimator(base))",
+    "brier_definition": "multi-class Brier (sum of one-hot squared errors, mean over samples)",
+    "n_train": 54400,
+    "n_calibration": 10880,
+    "n_test": 13600,
+    "accuracy": 0.9988,
+    "log_loss": 0.006,
+    "brier_score": 0.002,
+    "ece": 0.0021,
+    "raw_log_loss": null,
+    "raw_brier": null,
+    "raw_ece": null,
+    "calibration_log_loss": 0.0028,
+    "calibration_brier": 0.0005,
+    "calibration_ece": 0.0023,
+    "calibration_curve": {
+      "bin_center": [
+        0.55,
+        0.6500000000000001,
+        0.75,
+        0.8500000000000001,
+        0.95
+      ],
+      "accuracy": [
+        1.0,
+        0.25,
+        0.7142857142857143,
+        0.6666666666666666,
+        0.9994107248084856
+      ],
+      "confidence": [
+        0.5513908236407337,
+        0.6279705265689159,
+        0.7348303747074738,
+        0.857321061479461,
+        0.9976030842782871
+      ]
+    }
+  }
+}

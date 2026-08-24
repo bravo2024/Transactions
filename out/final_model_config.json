@@ -1,0 +1,21 @@
+{
+  "random_state": 42,
+  "classifier": "LinearSVC",
+  "representation": "word+char+direction (ablation winner; structural omitted)",
+  "calibration": "sigmoid (Platt) via CalibratedClassifierCV(FrozenEstimator(base))",
+  "calibration_partition": "g_cal (merchant-disjoint development data)",
+  "split_sizes": {
+    "g_train": 52686,
+    "g_fit": 42148,
+    "g_cal": 10538,
+    "g_test": 15314
+  },
+  "merchant_overlap_audit": {
+    "g_fit_x_g_cal": 2541,
+    "g_fit_x_g_test": 0,
+    "g_cal_x_g_test": 0,
+    "canonical_g_train_x_g_test": 0
+  },
+  "threshold": 0.99,
+  "threshold_objective": "max Macro-F1 subject to coverage >= 0.9 (calibration slice)"
+}

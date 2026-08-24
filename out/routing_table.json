@@ -1,0 +1,66 @@
+[
+  {
+    "threshold": 0.5,
+    "coverage": 0.9433184704769626,
+    "auto_accept_accuracy": 0.9081859199312469,
+    "review_load": 0.05668152952303743,
+    "n_auto": 13963,
+    "n_review": 839
+  },
+  {
+    "threshold": 0.6,
+    "coverage": 0.9133900824212944,
+    "auto_accept_accuracy": 0.9231508875739645,
+    "review_load": 0.08660991757870558,
+    "n_auto": 13520,
+    "n_review": 1282
+  },
+  {
+    "threshold": 0.7,
+    "coverage": 0.8744764221051209,
+    "auto_accept_accuracy": 0.9419808405438813,
+    "review_load": 0.12552357789487906,
+    "n_auto": 12944,
+    "n_review": 1858
+  },
+  {
+    "threshold": 0.8,
+    "coverage": 0.8269152817186867,
+    "auto_accept_accuracy": 0.9579248366013072,
+    "review_load": 0.17308471828131333,
+    "n_auto": 12240,
+    "n_review": 2562
+  },
+  {
+    "threshold": 0.85,
+    "coverage": 0.8093500878259695,
+    "auto_accept_accuracy": 0.9613522537562604,
+    "review_load": 0.19064991217403054,
+    "n_auto": 11980,
+    "n_review": 2822
+  },
+  {
+    "threshold": 0.9,
+    "coverage": 0.7856370760708012,
+    "auto_accept_accuracy": 0.9669791039642274,
+    "review_load": 0.21436292392919876,
+    "n_auto": 11629,
+    "n_review": 3173
+  },
+  {
+    "threshold": 0.95,
+    "coverage": 0.7407782732063235,
+    "auto_accept_accuracy": 0.9738258093935248,
+    "review_load": 0.25922172679367655,
+    "n_auto": 10965,
+    "n_review": 3837
+  },
+  {
+    "threshold": 0.99,
+    "coverage": 0.5609377111201189,
+    "auto_accept_accuracy": 0.9818138022401541,
+    "review_load": 0.4390622888798811,
+    "n_auto": 8303,
+    "n_review": 6499
+  }
+]

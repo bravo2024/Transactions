@@ -1,0 +1,66 @@
+[
+  {
+    "Model": "Logistic Regression",
+    "Macro-F1": 0.9117,
+    "Accuracy": 0.9016,
+    "Train time (s)": 17.1029,
+    "Inference latency (ms/sample)": 0.0014,
+    "Size / complexity": "595,051 coefs"
+  },
+  {
+    "Model": "Linear SVM (hybrid TF-IDF+dir)",
+    "Macro-F1": 0.9401,
+    "Accuracy": 0.9336,
+    "Train time (s)": 57.7107,
+    "Inference latency (ms/sample)": 0.0014,
+    "Size / complexity": "2.27 MB / 595,068 params"
+  },
+  {
+    "Model": "XGBoost",
+    "Macro-F1": 0.7968,
+    "Accuracy": 0.7866,
+    "Train time (s)": 659.6309,
+    "Inference latency (ms/sample)": 0.0128,
+    "Size / complexity": "~23,531 leaves across boosters"
+  },
+  {
+    "Model": "LightGBM",
+    "Macro-F1": 0.8451,
+    "Accuracy": 0.8327,
+    "Train time (s)": 423.4695,
+    "Inference latency (ms/sample)": 0.0341,
+    "Size / complexity": "~160,650 leaves across boosters"
+  },
+  {
+    "Model": "Char-CNN (1D)",
+    "Macro-F1": 0.8254,
+    "Accuracy": 0.8102,
+    "Train time (s)": 133.1666,
+    "Inference latency (ms/sample)": 0.1705,
+    "Size / complexity": "0.25 MB / 64,289 params"
+  },
+  {
+    "Model": "BiLSTM + Attention",
+    "Macro-F1": 0.6912,
+    "Accuracy": 0.6654,
+    "Train time (s)": 330.6447,
+    "Inference latency (ms/sample)": 0.8439,
+    "Size / complexity": "0.60 MB / 156,449 params"
+  },
+  {
+    "Model": "NBSVM (Wang & Manning 2012)",
+    "Macro-F1": 0.9548,
+    "Accuracy": 0.9464,
+    "Train time (s)": 14.7757,
+    "Inference latency (ms/sample)": 0.0012,
+    "Size / complexity": "595,051 coefs"
+  },
+  {
+    "Model": "BM25 + LinearSVC",
+    "Macro-F1": 0.965,
+    "Accuracy": 0.9599,
+    "Train time (s)": 82.2621,
+    "Inference latency (ms/sample)": 0.0019,
+    "Size / complexity": "1,190,051 coefs"
+  }
+]
